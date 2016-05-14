@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Add New Clients" 
+        android:drawableLeft="@drawable/add"/>
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnadd"
+        android:layout_alignLeft="@+id/btnadd"
+        android:layout_marginBottom="40dp"
+        android:text="View Your Clients" 
+        android:drawableLeft="@drawable/view"/>
+
+</RelativeLayout>
